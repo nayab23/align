@@ -1,0 +1,14 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width: 650px) {
+    .copyright{
+       text-align: center !important;
+       width: 100%;
+    }
+    footer{
+        margin-bottom: 89px;
+    }
+}
